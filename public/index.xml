@@ -5,7 +5,27 @@
     <link>/</link>
     <description>Recent content on Dawn of Microbiome</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 May 2023 21:48:51 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importar datos en Phyloseq</title>
+      <link>/2023/05/21/importar-datos-en-phyloseq/</link>
+      <pubDate>Sun, 21 May 2023 21:48:51 -0700</pubDate>
+      
+      <guid>/2023/05/21/importar-datos-en-phyloseq/</guid>
+      <description>Hello&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Phyloseq: Análisis de Metagenómica en R</title>
+      <link>/2023/05/09/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</link>
+      <pubDate>Tue, 09 May 2023 21:48:51 -0700</pubDate>
+      
+      <guid>/2023/05/09/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</guid>
+      <description>Introducción La metagenómica es un enfoque novedoso para el estudio de microorganismos obtenidos de un ambiente específico mediante el cribado de genes funcionales o el análisis de secuenciación[^1^]. La metagenómica se centra en la diversidad microbiana, la constitución de la comunidad, las relaciones genéticas y evolutivas, las actividades funcionales y las interacciones y relaciones con el medio ambiente[^1^].
+¿Qué es Phyloseq? Phyloseq es un paquete de R diseñado para facilitar la importación, el almacenamiento, el análisis y la visualización de datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs)[^3^].</description>
+    </item>
+    
     <item>
       <title>Acerca de</title>
       <link>/about/</link>
