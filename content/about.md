@@ -2,7 +2,6 @@
 date: "2016-05-05T21:48:51-07:00"
 title: Acerca de
 ---
-Hey
 
 **Phylo Galaxy** es un espacio de recursos académicos y profesionales dedicado a la exploración de la metagenómica, con un enfoque particular en la herramienta **phyloseq**.
 

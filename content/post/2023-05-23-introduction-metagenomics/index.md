@@ -1,6 +1,5 @@
 ---
 title: "Introducción a Phyloseq: Análisis de Metagenómica en R"
-author: "Tu Nombre"
 date: '2023-05-23'
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 --- 
