@@ -6,14 +6,15 @@
     <description>Recent content in Posts on Dawn of Microbiome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2015 13:09:13 -0600</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 21:48:51 -0700</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Introducción a Phyloseq: Análisis de Metagenómica en R</title>
+      <link>/2023/05/05/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</link>
+      <pubDate>Fri, 05 May 2023 21:48:51 -0700</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/2023/05/05/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</guid>
+      <description>Introducción La metagenómica es un enfoque novedoso para el estudio de microorganismos obtenidos de un ambiente específico mediante el cribado de genes funcionales o el análisis de secuenciación[^1^]. La metagenómica se centra en la diversidad microbiana, la constitución de la comunidad, las relaciones genéticas y evolutivas, las actividades funcionales y las interacciones y relaciones con el medio ambiente[^1^].
+¿Qué es Phyloseq? Phyloseq es un paquete de R diseñado para facilitar la importación, el almacenamiento, el análisis y la visualización de datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs)[^3^].</description>
     </item>
     
   </channel>
