@@ -4,7 +4,7 @@ author: "Tu Nombre"
 date: '`r Sys.Date()`'
 categories: ["Phyloseq"]
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
----
+--- 
 
 ```{r setup, include = FALSE}
   
