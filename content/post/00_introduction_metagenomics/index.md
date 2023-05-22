@@ -1,19 +1,12 @@
 ---
 title: "Introducción a Phyloseq: Análisis de Metagenómica en R"
 author: "Tu Nombre"
-date: '`r Sys.Date()`'
+date: '2023-05-23'
 categories: ["Phyloseq"]
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 ---
 
-```{r setup, include = FALSE}
-  
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
-                      comment = NA, prompt = FALSE, tidy = FALSE, 
-                      fig.width = 10, fig.height = 7,
-                      fig.align = 'center', fig_caption = TRUE)
 
-```
 
 # Introducción
 
@@ -27,11 +20,10 @@ Phyloseq es un paquete de R diseñado para facilitar la importación, el almacen
 
 Phyloseq es un paquete de R que se puede instalar fácilmente utilizando Bioconductor[^4^]. Abajo se muestra el código que puedes usar para instalar Phyloseq:
 
-```{r eval=FALSE}
 
+```r
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install("phyloseq")
-
 ```
