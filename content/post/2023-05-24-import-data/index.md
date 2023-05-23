@@ -1,7 +1,6 @@
 ---
 title: "Importar datos en Phyloseq"
-date: "2023-05-22T21:48:51-07:00"
-highlight: breezedark
+date: "2023-05-21T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 ---
 
@@ -41,4 +40,4 @@ pre {
 }
 </style>
 
-Hello…
+Hello my friend

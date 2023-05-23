@@ -1,6 +1,6 @@
 ---
 title: "Introducción a Phyloseq: Análisis de Metagenómica en R"
-date: "2023-05-21T21:48:51-07:00"
+date: "2023-05-20T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 --- 
 
@@ -58,3 +58,5 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("phyloseq")
 ```
+
+S
