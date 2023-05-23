@@ -8,7 +8,7 @@
     <loc>/</loc>
     <lastmod>2023-05-21T21:48:51-07:00</lastmod>
   </url><url>
-    <loc>/2023/05/21/importar-datos-en-phyloseq/</loc>
+    <loc>/2023/05/21/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</loc>
     <lastmod>2023-05-21T21:48:51-07:00</lastmod>
   </url><url>
     <loc>/tags/metagenomics/</loc>
@@ -23,9 +23,12 @@
     <loc>/tags/</loc>
     <lastmod>2023-05-21T21:48:51-07:00</lastmod>
   </url><url>
+<<<<<<< HEAD
     <loc>/2023/05/20/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</loc>
     <lastmod>2023-05-20T21:48:51-07:00</lastmod>
   </url><url>
+=======
+>>>>>>> b438332f0836ce067ba6b64d0772fbfe900c68d5
     <loc>/about/</loc>
     <lastmod>2016-05-05T21:48:51-07:00</lastmod>
   </url><url>
