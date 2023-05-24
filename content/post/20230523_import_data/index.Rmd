@@ -1,9 +1,19 @@
 ---
 title: "Importar datos en Phyloseq"
-date: "2023-05-21T21:48:51-07:00"
+date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 ---
+ 
+```{r setup, include = FALSE}
+  
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
+                      comment = NA, prompt = FALSE, tidy = FALSE, 
+                      fig.width = 10, fig.height = 7,
+                      fig.align = 'center', fig_caption = TRUE)
 
+```
+
+```{=html}
 <style>
 #TOC {
 
@@ -39,5 +49,7 @@ pre {
     
 }
 </style>
+
+```
 
 Hello my friend
