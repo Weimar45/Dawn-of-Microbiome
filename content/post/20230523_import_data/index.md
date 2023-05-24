@@ -1,5 +1,5 @@
 ---
-title: "Importar datos en Phyloseq"
+title: "Análisis de Metagenómica en R"
 date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 ---
@@ -29,7 +29,6 @@ h1, h2, h3, h4 {
 body {
 
     font-family: cambria;
-    text-align:justify;
     background-color: #F5F5F5;
     
 }
@@ -40,4 +39,17 @@ pre {
 }
 </style>
 
-Hello my friend
+# ¿Qué es Phyloseq?
+
+Phyloseq es un paquete de R diseñado para facilitar la importación, el almacenamiento, el análisis y la visualización de datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs)\[^3^\]. Phyloseq proporciona importación de datos de abundancia y datos relacionados de tuberías populares de eliminación de ruido / agrupamiento de OTU (DADA2, UPARSE, QIIME, mothur, BIOM, PyroTagger, RDP, etc.), envoltorios de análisis de conveniencia para tareas de análisis comunes, y 44 métodos de distancia soportados (UniFrac, Jensen-Shannon, etc.)\[^3^\].
+
+# Instalación de Phyloseq
+
+Phyloseq es un paquete de R que se puede instalar fácilmente utilizando Bioconductor\[^4^\]. Abajo se muestra el código que puedes usar para instalar Phyloseq:
+
+``` r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("phyloseq")
+```

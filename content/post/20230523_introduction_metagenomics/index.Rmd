@@ -53,6 +53,7 @@ pre {
 
 ```
 
+
 # Introducción
 
 La metagenómica es una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales[@Handelsman2004]. Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. La metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas[@Wooley2010].
