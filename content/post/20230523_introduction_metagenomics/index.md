@@ -4,7 +4,7 @@ date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: metagenomics.bib
---- 
+---  
 
 <style>
 #TOC {
@@ -31,6 +31,7 @@ h1, h2, h3, h4 {
 body {
 
     font-family: cambria;
+    text-align:justify;
     background-color: #F5F5F5;
     
 }

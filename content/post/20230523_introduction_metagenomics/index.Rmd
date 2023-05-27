@@ -4,7 +4,7 @@ date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: metagenomics.bib
---- 
+---  
 
 ```{r setup, include = FALSE}
   
@@ -41,6 +41,7 @@ h1, h2, h3, h4 {
 body {
 
     font-family: cambria;
+    text-align:justify;
     background-color: #F5F5F5;
     
 }
@@ -65,7 +66,7 @@ La metagenómica es el estudio de los genomas de comunidades microbianas directa
 # Secuenciación de Nueva Generación (NGS)
 
 Las tecnologías de Secuenciación de Nueva Generación (NGS) han revolucionado la genómica y la metagenómica, permitiendo la secuenciación de millones de fragmentos de ADN simultáneamente [@Mardis2008]. Esto ha permitido un aumento sin precedentes en la velocidad y la economía de la secuenciación del genoma, lo que a su vez ha permitido el análisis metagenómico a gran escala de comunidades microbianas [@Metzker2010].
-
+ 
 # Unidades Taxonómicas Operativas (OTUs)
 
 En la metagenómica, las Unidades Taxonómicas Operativas (OTUs) son una forma de clasificar los grupos de secuencias de ADN similares que se supone que representan una especie o un grupo de especies estrechamente relacionadas[@Schloss2009]. Las OTUs son fundamentales para la comparación de la diversidad y composición de las comunidades microbianas en diferentes muestras [@Huse2010].

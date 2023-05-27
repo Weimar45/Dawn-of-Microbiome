@@ -8,22 +8,22 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 23 May 2023 21:48:51 -0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Importar datos en Phyloseq</title>
-      <link>/2023/05/23/importar-datos-en-phyloseq/</link>
+      <title>Introducción a la Metagenómica</title>
+      <link>/2023/05/23/introducci%C3%B3n-a-la-metagen%C3%B3mica/</link>
       <pubDate>Tue, 23 May 2023 21:48:51 -0700</pubDate>
       
-      <guid>/2023/05/23/importar-datos-en-phyloseq/</guid>
-      <description>Hello my friend</description>
+      <guid>/2023/05/23/introducci%C3%B3n-a-la-metagen%C3%B3mica/</guid>
+      <description>Introducción La metagenómica es una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales (Handelsman 2004). Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. La metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas (Wooley, Godzik, and Friedberg 2010).
+Metagenómica: Aplicación de la genómica a microorganismos no cultivados La metagenómica es el estudio de los genomas de comunidades microbianas directamente a partir de muestras ambientales, sin la necesidad de cultivar organismos individuales en el laboratorio (Handelsman 2004).</description>
     </item>
     
     <item>
-      <title>Introducción a Phyloseq: Análisis de Metagenómica en R</title>
-      <link>/2023/05/23/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</link>
+      <title>Introducción a Phyloseq: Análisis de Microbiomas en R</title>
+      <link>/2023/05/23/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-microbiomas-en-r/</link>
       <pubDate>Tue, 23 May 2023 21:48:51 -0700</pubDate>
       
-      <guid>/2023/05/23/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-metagen%C3%B3mica-en-r/</guid>
-      <description>Introducción La metagenómica es un enfoque novedoso para el estudio de microorganismos obtenidos de un ambiente específico mediante el cribado de genes funcionales o el análisis de secuenciación[^1^]. La metagenómica se centra en la diversidad microbiana, la constitución de la comunidad, las relaciones genéticas y evolutivas, las actividades funcionales y las interacciones y relaciones con el medio ambiente[^1^].
-¿Qué es Phyloseq? Phyloseq es un paquete de R diseñado para facilitar la importación, el almacenamiento, el análisis y la visualización de datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs)[^3^].</description>
+      <guid>/2023/05/23/introducci%C3%B3n-a-phyloseq-an%C3%A1lisis-de-microbiomas-en-r/</guid>
+      <description>Introducción a Phyloseq ¿Qué es Phyloseq? Phyloseq es un paquete de R que se compone de una serie de fucniones para importar, almacenar, analizar y visualizar gráficamente datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs), especialmente cuando hay datos de muestra asociados, un árbol filogenético y/o asignación taxonómica de las OTUs. Este paquete aprovecha muchas de las herramientas disponibles en R para ecología y análisis filogenético (vegan, ade4, ape, picante), al mismo tiempo que utiliza sistemas gráficos avanzados y flexibles (ggplot2) para producir fácilmente gráficos de calidad de publicación de datos filogenéticos complejos (McMurdie and Holmes 2013).</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>Phylo Galaxy es un espacio de recursos académicos y profesionales dedicado a la exploración de la metagenómica, con un enfoque particular en la herramienta phyloseq.
+      <description>Phylo Galaxy es un espacio de recursos académicos y profesionales dedicado a la exploración de la metagenómica, con un enfoque particular en Bioconductor, y de modo más concreto, en la herramienta Phyloseq.
 La metagenómica, que implica el análisis del ADN de comunidades microbianas, ha permitido a los científicos catalogar y comprender la diversidad de vida microbiana presente en una variedad de ambientes. La recolección y análisis de estos datos, sin embargo, presenta desafíos significativos debido a su volumen y complejidad.</description>
     </item>
     
