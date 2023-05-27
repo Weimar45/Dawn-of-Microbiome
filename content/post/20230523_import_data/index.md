@@ -39,9 +39,23 @@ pre {
 }
 </style>
 
-# ¿Qué es Phyloseq?
+# Introducción a Phyloseq
 
-Phyloseq es un paquete de R diseñado para facilitar la importación, el almacenamiento, el análisis y la visualización de datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs)\[^3^\]. Phyloseq proporciona importación de datos de abundancia y datos relacionados de tuberías populares de eliminación de ruido / agrupamiento de OTU (DADA2, UPARSE, QIIME, mothur, BIOM, PyroTagger, RDP, etc.), envoltorios de análisis de conveniencia para tareas de análisis comunes, y 44 métodos de distancia soportados (UniFrac, Jensen-Shannon, etc.)\[^3^\].
+## ¿Qué es Phyloseq?
+
+Phyloseq es un paquete de R que proporciona una serie de funciones que facilitan el análisis de datos de secuenciación de microbiomas (**mcmurdie2013phyloseq?**). Este paquete permite la importación de un conjunto diverso de formatos de datos de secuenciación de microbiomas y consta de una serie de funciones para la visualización y análisis de estos datos. Esto incluye la importación de datos, la normalización, la visualización y el análisis estadístico (**mcmurdie2013phyloseq?**; **callahan2016dada2?**).
+
+Phyloseq es especialmente útil para el análisis de datos de secuenciación de alto rendimiento, que a menudo son difíciles de manejar con los métodos tradicionales (**mcmurdie2013phyloseq?**; **callahan2016dada2?**; **thompson2017second?**). Además, Phyloseq proporciona una serie de visualizaciones gráficas que son útiles para explorar y entender los datos de microbiomas (**mcmurdie2013phyloseq?**; **callahan2016dada2?**; **thompson2017second?**).
+
+Phyloseq también facilita la investigación reproducible al permitir que los análisis se realicen en el entorno de programación de R. Esto permite que los análisis se documenten y compartan fácilmente, como en este mismo blog, lo cual facilita la colaboración y la revisión de los análisis (**mcmurdie2013phyloseq?**; **callahan2016dada2?**).
+
+# Funcionalidades
+
+Phyloseq proporciona funciones para importar datos de secuenciación filogenética de los pipelines de agrupación taxonómica comunes. Estos métodos toman rutas de archivos como entrada, leen y analizan esos archivos, y devuelven un solo objeto que contiene todos los datos. Algunos de los pipelines soportados incluyen biom-format, QIIME (Modern y Legacy), mothur, PyroTagger y RDP pipeline (**phyloseqweb?**; **mcmurdie2013phyloseq?**).
+
+Además, Phyloseq proporciona funciones para convertir tablas de datos en objetos de datos de componentes específicos reconocidos por Phyloseq. Estos pueden ser combinados en un solo objeto de nivel de experimento que es coherente y ha sido verificado para su validez (**phyloseqweb?**; **mcmurdie2013phyloseq?**).
+
+Phyloseq también proporciona funciones para recortar y filtrar datos de secuenciación filogenética. Esto puede ser útil para ciertos tipos de análisis y Phyloseq facilita este proceso al proporcionar funciones para recortar y filtrar los datos de un proyecto de secuenciación filogenética \[(**phyloseMis?**) disculpas por el corte anterior. Aquí está el Rmd final completo:
 
 # Instalación de Phyloseq
 
@@ -53,3 +67,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("phyloseq")
 ```
+
+# Conclusión
+
+Phyloseq es una herramienta poderosa y flexible para el análisis de datos de secuenciación de microbiomas. Proporciona una amplia gama de funciones para importar, analizar y visualizar estos datos, y es especialmente útil para el análisis de datos de secuenciación de alto rendimiento. Al permitir que los análisis se realicen en el entorno de programación de R, Phyloseq también facilita la investigación reproducible.
