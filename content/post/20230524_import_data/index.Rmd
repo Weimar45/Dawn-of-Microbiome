@@ -1,5 +1,5 @@
 ---
-title: "Introducción a Phyloseq: Análisis de Microbiomas en R"
+title: "Introducción a Phyloseq"
 date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
@@ -55,7 +55,7 @@ pre {
 
 ```
 
-# Introducción a Phyloseq
+# Introducción a Phyloseq: Análisis de Microbiomas en R
 
 ## ¿Qué es Phyloseq?
 
