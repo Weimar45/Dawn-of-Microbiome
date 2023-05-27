@@ -64,21 +64,29 @@ La metagenómica presenta varios desafíos computacionales, incluyendo la necesi
 
 Las herramientas bioinformáticas son esenciales para el análisis de los datos metagenómicos. Estas herramientas permiten el ensamblaje de las secuencias de ADN, la predicción de genes, la anotación funcional y la comparación de comunidades microbianas. Algunas de las herramientas más utilizadas en metagenómica incluyen MetaVelvet, IDBA-UD, Ray Meta y CONCOCT (Rice et al. 2017).
 
-Una herramientas bioinformática muy importante que se utilizan en la metagenómica, es QIIME, que permite el análisis de datos de secuenciación de comunidades de alta densidad (Caporaso et al. 2010). Otras herramientas importantes incluyen MetaVelvet, que se utiliza para el ensamblaje de metagenomas, y Phyloseq, que proporciona una serie de herramientas para el análisis de datos de secuenciación de comunidades microbianas (Quince et al. 2017).
+Una herramienta bioinformática muy importante que se utilizan en la metagenómica, es QIIME, que permite el análisis de datos de secuenciación de comunidades de alta densidad (Caporaso et al. 2010). Otras herramientas importantes incluyen MetaVelvet, que se utiliza para el ensamblaje de metagenomas, y Phyloseq, que proporciona una serie de herramientas para el análisis de datos de secuenciación de comunidades microbianas (Quince et al. 2017).
 
 ## Crecimiento de la Metagenómica
 
 La metagenómica ha experimentado un rápido desarrollo y evolución en los últimos años. Los avances en las tecnologías de secuenciación y análisis de datos han permitido un análisis más profundo y preciso de las comunidades microbianas (Knight et al. 2018).
 
+Este crecimiento explosivo de la metagenómica ha sido facilitado en gran medida por herramientas como **USEARCH**. Esta herramienta de análisis de secuencias genéticas proporciona algoritmos de búsqueda y agrupación de alta velocidad, superando a **BLAST** en términos de eficiencia. Al combinar múltiples algoritmos en un solo paquete, **USEARCH** optimiza la productividad y facilita la exploración de datos genéticos, lo que es esencial en el campo de la metagenómica (USEARCH 2023; Altschul 1997).
+
 Un estudio reciente de Rognes et al. (2020) ha demostrado que VSEARCH, una herramienta de análisis metagenómico, es generalmente más preciso que USEARCH cuando se realiza la búsqueda, el agrupamiento, la detección de quimeras y el muestreo (Rognes et al. 2020). Además, VSEARCH es más rápido que USEARCH cuando se realiza la dereplicación y la fusión de lecturas de extremo a extremo, aunque es más lento para el agrupamiento y la detección de quimeras (Rognes et al. 2020).
 
 # Conclusión
 
-La metagenómica ha revolucionado nuestra capacidad para estudiar las comunidades microbianas, permitiéndonos explorar la diversidad microbiana a una escala y profundidad sin precedentes. Los avances en las tecnologías de secuenciación y análisis de datos están impulsando continuamente los límites de lo que es posible en la metagenómica, permitiendo una comprensión cada vez más profunda y matizada de los complejos ecosistemas microbianos que nos rodean y habitan dentro de nosotros.
+La metagenómica ha revolucionado nuestra capacidad para estudiar las comunidades microbianas, permitiéndonos explorar la diversidad microbiana a una escala y profundidad sin precedentes revolucionando así nuestra comprensión de los microorganismos y su papel en nuestro mundo. Los avances en las tecnologías de secuenciación y análisis de datos están impulsando continuamente los límites de lo que es posible en la metagenómica, permitiendo una comprensión cada vez más profunda y matizada de los complejos ecosistemas microbianos que nos rodean y habitan dentro de nosotros.
 
 # Referencias
 
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-Altschul1997" class="csl-entry">
+
+Altschul, S. 1997. “Gapped BLAST and PSI-BLAST: A New Generation of Protein Database Search Programs.” *Nucleic Acids Research* 25: 3389. https://doi.org/<https://doi.org/10.1093/nar/25.17.3389>.
+
+</div>
 
 <div id="ref-Caporaso2010" class="csl-entry">
 
@@ -143,6 +151,12 @@ Rognes, T., T. Flouri, B. Nichols, C. Quince, and F. Mahé. 2020. “VSEARCH: A 
 <div id="ref-Schloss2009" class="csl-entry">
 
 Schloss, P. D., S. L. Westcott, T. Ryabin, J. R. Hall, M. Hartmann, E. B. Hollister, R. A. Lesniewski, et al. 2009. “Introducing Mothur: Open-Source, Platform-Independent, Community-Supported Software for Describing and Comparing Microbial Communities.” *Applied and Environmental Microbiology* 75 (23): 7537–41.
+
+</div>
+
+<div id="ref-usearch2023" class="csl-entry">
+
+USEARCH. 2023. “USEARCH.” <https://www.drive5.com/usearch/download.html>.
 
 </div>
 
