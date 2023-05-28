@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<title>Introducción a Phyloseq - Dawn of Microbiome</title>
+<meta property="og:title" content="Introducción a Phyloseq - Dawn of Microbiome">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/nord.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.jpg"
+         width="50"
+         height="100"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">Acerca de</a></li>
+    
+    <li><a href="https://github.com/Weimar45">GitHub</a></li>
+    
+    <li><a href="https://twitter.com/Weimar1945">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">4 min read</span>
+    
+
+    <h1 class="article-title">Introducción a Phyloseq</h1>
+
+    
+    <span class="article-date">2023-05-24</span>
+    
+
+    <div class="article-content">
+      <style>
+#TOC {
+
+  color: #99A7DE;
+  background-color: #F5F5F5;
+
+}
+#header {
+  
+  text-align: center;
+  color: #A36DD0;
+  background-color: #F5F5F5;
+  opacity: 0.8;
+  font-family: serif;
+  
+}
+h1, h2, h3, h4 {
+  
+  color: #99A7DE;
+  opacity: 0.8;
+
+}
+body {
+
+    font-family: cambria;
+    text-align:justify;
+    background-color: #F5F5F5;
+    
+}
+pre {
+
+    font-family: Serif;
+    
+}
+</style>
+<h1 id="introducción-a-phyloseq-análisis-de-microbiomas-en-r">Introducción a Phyloseq: Análisis de Microbiomas en R</h1>
+<h2 id="qué-es-phyloseq">¿Qué es Phyloseq?</h2>
+<p><strong>Phyloseq</strong> es un paquete de R que se compone de una serie de funciones para importar, almacenar, analizar y visualizar gráficamente datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs), especialmente cuando hay datos de muestra asociados, un árbol filogenético y/o asignación taxonómica de las OTUs. Este paquete aprovecha muchas de las herramientas disponibles en R para ecología y análisis filogenético (vegan, ade4, ape, picante), al mismo tiempo que utiliza sistemas gráficos avanzados y flexibles (ggplot2) para producir fácilmente gráficos de calidad de publicación de datos filogenéticos complejos (McMurdie and Holmes 2013). Mediante Phyloseq se puede llevar así a cabo la importación de un conjunto diverso de formatos de datos de secuenciación de microbiomas, su normalización, la visualización y el análisis estadístico (McMurdie and Holmes 2013; Callahan et al. 2016).</p>
+<p><strong>Phyloseq</strong> es especialmente útil para el análisis de datos de secuenciación de alto rendimiento, que a menudo son difíciles de manejar con los métodos tradicionales (McMurdie and Holmes 2013; Callahan et al. 2016; Thompson et al. 2017). Además, proporciona una serie de visualizaciones gráficas que son útiles para explorar y entender los datos de microbiomas (McMurdie and Holmes 2013; Callahan et al. 2016; Thompson et al. 2017).</p>
+<p>A través de esta herramienta también facilita la investigación reproducible al permitir que los análisis se realicen en el entorno de programación de R. Esto permite que los análisis se documenten y compartan fácilmente, como en este mismo blog, lo cual facilita la colaboración y la revisión de los análisis (McMurdie and Holmes 2013; Callahan et al. 2016).</p>
+<h2 id="aplicaciones-de-phyloseq">Aplicaciones de Phyloseq</h2>
+<p><strong>Phyloseq</strong> se utiliza en una amplia gama de aplicaciones, desde la ecología microbiana hasta la medicina. Por ejemplo, se ha empleado para analizar la diversidad microbiana en diferentes entornos, como el suelo (Thompson et al. 2017), el agua (Logares et al. 2014) o el mismo cuerpo humano (Consortium 2012). En medicina, Phyloseq se ha utilizado para analizar la relación entre el microbioma humano y diversas enfermedades, como la enfermedad inflamatoria intestinal (Gevers et al. 2014) y la obesidad (Le Chatelier et al. 2013).</p>
+<h1 id="instalación-de-phyloseq">Instalación de Phyloseq</h1>
+<p>Es posible instalar Phyloseq fácilmente utilizando Bioconductor como se muestra a continuación (Layeghifard, Hwang, and Guttman 2017; “Bioconductor: Open Source Software for Bioinformatics” 2023).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">if </span>(<span style="color:#f92672">!</span><span style="color:#a6e22e">requireNamespace</span>(<span style="color:#e6db74">&#34;BiocManager&#34;</span>, quietly <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>))
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;BiocManager&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>BiocManager<span style="color:#f92672">::</span><span style="color:#a6e22e">install</span>(<span style="color:#e6db74">&#34;phyloseq&#34;</span>)
+</span></span></code></pre></div><h1 id="conclusión">Conclusión</h1>
+<p>Phyloseq es una herramienta poderosa y flexible para el análisis de datos de secuenciación de microbiomas. Proporciona una amplia gama de funciones para importar, analizar y visualizar estos datos, y es especialmente útil para el análisis de datos de secuenciación de alto rendimiento. Al permitir que los análisis se realicen en el entorno de programación de R, Phyloseq también facilita la investigación reproducible.</p>
+<h1 id="referencias">Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bioconductorweb" class="csl-entry">
+<p>“Bioconductor: Open Source Software for Bioinformatics.” 2023. Bioconductor. <a href="https://bioconductor.org/packages/release/bioc/html/phyloseq.html">https://bioconductor.org/packages/release/bioc/html/phyloseq.html</a>.</p>
+</div>
+<div id="ref-callahan2016dada2" class="csl-entry">
+<p>Callahan, Benjamin J, Paul J McMurdie, Michael J Rosen, Andrew W Han, Amy Jo A Johnson, and Susan P Holmes. 2016. “DADA2: High-Resolution Sample Inference from Illumina Amplicon Data.” <em>Nature Methods</em> 13 (7): 581–83.</p>
+</div>
+<div id="ref-human_microbiome_project_consortium2012structure" class="csl-entry">
+<p>Consortium, Human Microbiome Project. 2012. “Structure, Function and Diversity of the Healthy Human Microbiome.” <em>Nature</em> 486 (7402): 207–14.</p>
+</div>
+<div id="ref-gevers2014treatment" class="csl-entry">
+<p>Gevers, Dirk, Subra Kugathasan, Dan Knights, Aleksandar D Kostic, Rob Knight, and Ramnik J Xavier. 2014. “Treatment-Naive Crohn’s Disease Patients Demonstrate Abnormalities in Microbial Community Structure and Function.” <em>Gut</em> 63 (12): 1928–37.</p>
+</div>
+<div id="ref-layeghifard2017disentangling" class="csl-entry">
+<p>Layeghifard, Mehdi, David M Hwang, and David S Guttman. 2017. “Disentangling Interactions in the Microbiome: A Network Perspective.” <em>Trends in Microbiology</em> 25 (3): 217–28. <a href="http://www.cell.com/article/S0966842X16301858/pdf">http://www.cell.com/article/S0966842X16301858/pdf</a>.</p>
+</div>
+<div id="ref-le_chatelier2013richness" class="csl-entry">
+<p>Le Chatelier, Emmanuelle, Trine Nielsen, Junjie Qin, Edi Prifti, Falk Hildebrand, Gwen Falony, Mathieu Almeida, et al. 2013. “Richness of Human Gut Microbiome Correlates with Metabolic Markers.” <em>Nature</em> 500 (7464): 541–46.</p>
+</div>
+<div id="ref-logares2014metagenomic" class="csl-entry">
+<p>Logares, Ramiro, Shinichi Sunagawa, Guillem Salazar, Francisco M Cornejo-Castillo, Isabel Ferrera, Hugo Sarmento, Pascal Hingamp, et al. 2014. “Metagenomic 16S rDNA Illumina Tags Are a Powerful Alternative to Amplicon Sequencing to Explore Diversity and Structure of Microbial Communities.” <em>Environmental Microbiology</em> 16 (9): 2659–71.</p>
+</div>
+<div id="ref-mcmurdie2013phyloseq" class="csl-entry">
+<p>McMurdie, Paul J, and Susan Holmes. 2013. “Phyloseq: An r Package for Reproducible Interactive Analysis and Graphics of Microbiome Census Data.” <em>PloS One</em> 8 (4): e61217.</p>
+</div>
+<div id="ref-thompson2017second" class="csl-entry">
+<p>Thompson, Luke R, Jon G Sanders, Daniel McDonald, Amnon Amir, Joshua Ladau, Kenneth J Locey, Robert J Prill, et al. 2017. “A Communal Catalogue Reveals Earth’s Multiscale Microbial Diversity.” <em>Nature</em> 551 (7681): 457–63.</p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

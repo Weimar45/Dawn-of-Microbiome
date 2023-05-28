@@ -6,7 +6,6 @@ output: html_document
 bibliography: phyloseq.bib
 ---
  
- 
 ```{r setup, include = FALSE}
   
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 

@@ -6,7 +6,25 @@
     <description>Recent content in Bioconductor on Dawn of Microbiome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 21:48:51 -0700</lastBuildDate><atom:link href="/tags/bioconductor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 May 2023 21:48:51 -0700</lastBuildDate><atom:link href="/tags/bioconductor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción al Microcosmos</title>
+      <link>/2023/05/25/introducci%C3%B3n-al-microcosmos/</link>
+      <pubDate>Thu, 25 May 2023 21:48:51 -0700</pubDate>
+      
+      <guid>/2023/05/25/introducci%C3%B3n-al-microcosmos/</guid>
+      <description>Una Revisión Exhaustiva de las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana Actualmente</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Phyloseq</title>
+      <link>/2023/05/24/introducci%C3%B3n-a-phyloseq/</link>
+      <pubDate>Wed, 24 May 2023 21:48:51 -0700</pubDate>
+      
+      <guid>/2023/05/24/introducci%C3%B3n-a-phyloseq/</guid>
+      <description>Introducción a Phyloseq: Análisis de Microbiomas en R ¿Qué es Phyloseq? Phyloseq es un paquete de R que se compone de una serie de funciones para importar, almacenar, analizar y visualizar gráficamente datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs), especialmente cuando hay datos de muestra asociados, un árbol filogenético y/o asignación taxonómica de las OTUs. Este paquete aprovecha muchas de las herramientas disponibles en R para ecología y análisis filogenético (vegan, ade4, ape, picante), al mismo tiempo que utiliza sistemas gráficos avanzados y flexibles (ggplot2) para producir fácilmente gráficos de calidad de publicación de datos filogenéticos complejos (McMurdie and Holmes 2013).</description>
+    </item>
+    
     <item>
       <title>Introducción a la Metagenómica</title>
       <link>/2023/05/23/introducci%C3%B3n-a-la-metagen%C3%B3mica/</link>
