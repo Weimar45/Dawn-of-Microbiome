@@ -3,6 +3,7 @@ title: "Introducción al Microcosmos"
 date: "2023-05-25T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
+bibliography: resources.bib
 ---
 
 <style>
@@ -44,3 +45,25 @@ pre {
 # Una Revisión Exhaustiva de las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana
 
 Actualmente
+
+NCBI (National Center for Biotechnology Information): Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta (SRA).
+
+NCBI SRA (Sequence Read Archive): Es una base de datos que almacena secuencias de lectura corta generadas por tecnologías de secuenciación de próxima generación. SRA es una fuente crucial de datos para la metagenómica y la ecología microbiana, ya que permite a los investigadores acceder a datos de secuenciación de una amplia variedad de proyectos y estudios.
+
+EBI (European Bioinformatics Institute): Es una organización de investigación que forma parte del Laboratorio Europeo de Biología Molecular. EBI proporciona acceso a muchas bases de datos y herramientas útiles en el campo de la bioinformática, incluyendo la base de datos de secuencias de ADN y proteínas, Ensembl, y la base de datos de metagenómica.
+
+EBI Metagenomics: Es una base de datos y una plataforma de análisis que permite a los investigadores depositar, buscar y analizar datos metagenómicos. Esta plataforma es especialmente útil para los estudios de ecología microbiana que se centran en la secuenciación de ADN ambiental.
+
+HMP DACC (Human Microbiome Project Data Analysis and Coordination Center): Es una iniciativa que tiene como objetivo caracterizar y analizar la microbiota humana para entender su papel en la salud y la enfermedad. Los datos generados por el HMP son de gran valor para los estudios de metagenómica y ecología microbiana.
+
+MG-RAST (Metagenomic Rapid Annotations using Subsystems Technology): Es una plataforma de análisis de metagenómica que proporciona acceso a datos y herramientas para el análisis de secuencias metagenómicas. MG-RAST es útil para los investigadores en ecología microbiana que buscan entender la diversidad y la función de las comunidades microbianas.
+
+iMicrobe: Es una plataforma que proporciona acceso a datos y herramientas para la investigación en microbiología y metagenómica. iMicrobe incluye datos de proyectos como el Proyecto de Microbiología Marina de la Fundación Gordon y Betty Moore.
+
+JGI (Joint Genome Institute): Es un instituto de investigación que proporciona acceso a una variedad de recursos genómicos, incluyendo secuenciación de ADN y análisis de metagenómica. JGI es una valiosa fuente de datos para los estudios de ecología microbiana.
+
+ENA (European Nucleotide Archive): Es una base de datos que almacena secuencias de nucleótidos y información relacionada. ENA es una fuente importante de datos para la metagenómica y la ecología microbiana.
+
+DDBJ (DNA Data Bank of Japan): Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociadas. DDBJ es una fuente importante de datos para la metagenómica y la ecología microbiana, ya que proporciona acceso a secuencias genéticas de una amplia variedad de organismos, incluyendo microbios.
+
+# Referencias
