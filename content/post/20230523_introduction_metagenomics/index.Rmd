@@ -57,7 +57,7 @@ pre {
 
 # Introducción
 
-La metagenómica es una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales, esto es, en lugar de centrarse en un solo organismo, esta rama científica pone el foco en el estudio de la diversidad y la función de las comunidades microbianas en su conjunto [@Handelsman2004]. Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. Es así cómo la metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas [@Wooley2010].
+La metagenómica es un subcampo de la genómica que ha surgido como una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales de forma directa, esto es, en lugar de centrarse en un solo organismo, esta rama científica pone el foco en el estudio de la diversidad y la función de las comunidades microbianas en su conjunto [@Handelsman2004]. Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. Es así cómo la metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas [@Wooley2010].
 
 ## Metagenómica: Secuenciación de Nueva Generación (NGS)
 

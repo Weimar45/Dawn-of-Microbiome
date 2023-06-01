@@ -44,7 +44,7 @@ pre {
 
 # Una Revisión Exhaustiva de las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana
 
-Actualmente
+Actualmente se…
 
 NCBI (National Center for Biotechnology Information): Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta (SRA).
 
