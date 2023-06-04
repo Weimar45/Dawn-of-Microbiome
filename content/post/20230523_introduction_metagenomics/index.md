@@ -4,6 +4,7 @@ date: "2023-05-23T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: metagenomics.bib
+link-citations: true
 ---  
 
 <style>
@@ -44,35 +45,35 @@ pre {
 
 # Introducción
 
-La metagenómica es un subcampo de la genómica que ha surgido como una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales de forma directa, esto es, en lugar de centrarse en un solo organismo, esta rama científica pone el foco en el estudio de la diversidad y la función de las comunidades microbianas en su conjunto (Handelsman 2004). Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. Es así cómo la metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas (Wooley, Godzik, and Friedberg 2010).
+La metagenómica es un subcampo de la genómica que ha surgido como una disciplina emergente que se centra en el análisis del material genético de las comunidades microbianas presentes en los ecosistemas naturales de forma directa, esto es, en lugar de centrarse en un solo organismo, esta rama científica pone el foco en el estudio de la diversidad y la función de las comunidades microbianas en su conjunto ([Handelsman 2004](#ref-Handelsman2004)). Este enfoque permite el estudio de los microorganismos en su hábitat natural, sin la necesidad de cultivarlos en el laboratorio. Es así cómo la metagenómica ha revolucionado nuestra comprensión de la diversidad y la funcionalidad de las comunidades microbianas ([Wooley, Godzik, and Friedberg 2010](#ref-Wooley2010)).
 
 ## Metagenómica: Secuenciación de Nueva Generación (NGS)
 
-La metagenómica, como se ha mencionado, es el estudio de los genomas de comunidades microbianas directamente a partir de muestras ambientales, sin la necesidad de cultivar organismos individuales en el laboratorio (Handelsman 2004). Esta disciplina ha experimentado un crecimiento significativo en las últimas dos décadas, impulsado en gran medida por los avances en las tecnologías de secuenciación de nueva generación (NGS) (Margulies et al. 2005).
+La metagenómica, como se ha mencionado, es el estudio de los genomas de comunidades microbianas directamente a partir de muestras ambientales, sin la necesidad de cultivar organismos individuales en el laboratorio ([Handelsman 2004](#ref-Handelsman2004)). Esta disciplina ha experimentado un crecimiento significativo en las últimas dos décadas, impulsado en gran medida por los avances en las tecnologías de secuenciación de nueva generación (NGS) ([Margulies et al. 2005](#ref-Margulies2005)).
 
-Las tecnologías de Secuenciación de Nueva Generación (NGS) han revolucionado la genómica y la metagenómica, permitiendo la secuenciación de millones de fragmentos de ADN simultáneamente (Mardis 2008). Esto ha permitido un aumento sin precedentes en la velocidad y la economía de la secuenciación del genoma, lo que a su vez ha permitido el análisis metagenómico a gran escala de comunidades microbianas (Metzker 2010).
+Las tecnologías de Secuenciación de Nueva Generación (NGS) han revolucionado la genómica y la metagenómica, permitiendo la secuenciación de millones de fragmentos de ADN simultáneamente ([Mardis 2008](#ref-Mardis2008)). Esto ha permitido un aumento sin precedentes en la velocidad y la economía de la secuenciación del genoma, lo que a su vez ha permitido el análisis metagenómico a gran escala de comunidades microbianas ([Metzker 2010](#ref-Metzker2010)).
 
 # Metagenómica: Estado del Arte
 
-La metagenómica presenta varios desafíos computacionales, incluyendo la necesidad de manejar grandes volúmenes de datos y la dificultad de asignar secuencias a especies específicas(Wooley, Godzik, and Friedberg 2010). A pesar de estos desafíos, la metagenómica ha proporcionado una visión sin precedentes de la diversidad y la funcionalidad de las comunidades microbianas (Wooley, Godzik, and Friedberg 2010).
+La metagenómica presenta varios desafíos computacionales, incluyendo la necesidad de manejar grandes volúmenes de datos y la dificultad de asignar secuencias a especies específicas([Wooley, Godzik, and Friedberg 2010](#ref-Wooley2010)). A pesar de estos desafíos, la metagenómica ha proporcionado una visión sin precedentes de la diversidad y la funcionalidad de las comunidades microbianas ([Wooley, Godzik, and Friedberg 2010](#ref-Wooley2010)).
 
 ## Unidades Taxonómicas Operativas (OTUs)
 
-Este avance ha venido de la mano de un nuevo sistema de clasificación, las **Unidades Taxonómicas Operativas** (**OTUs**). Las OTUs son una forma de clasificar los grupos de secuencias de ADN similares que se supone que representan una especie o un grupo de especies estrechamente relacionadas, lo cual permite navegar en estos grandes volúmenes de datos muestreados (Schloss et al. 2009). Las OTUs son fundamentales para la comparación de la diversidad y composición de las comunidades microbianas en diferentes muestras (Huse et al. 2008).
+Este avance ha venido de la mano de un nuevo sistema de clasificación, las **Unidades Taxonómicas Operativas** (**OTUs**). Las OTUs son una forma de clasificar los grupos de secuencias de ADN similares que se supone que representan una especie o un grupo de especies estrechamente relacionadas, lo cual permite navegar en estos grandes volúmenes de datos muestreados ([Schloss et al. 2009](#ref-Schloss2009)). Las OTUs son fundamentales para la comparación de la diversidad y composición de las comunidades microbianas en diferentes muestras ([Huse et al. 2008](#ref-Huse2010)).
 
 ## Crecimiento de la Metagenómica
 
-La metagenómica ha experimentado un rápido desarrollo y evolución en los últimos años. Los avances en las tecnologías de secuenciación y análisis de datos han permitido un análisis más profundo y preciso de las comunidades microbianas (Knight et al. 2018).
+La metagenómica ha experimentado un rápido desarrollo y evolución en los últimos años. Los avances en las tecnologías de secuenciación y análisis de datos han permitido un análisis más profundo y preciso de las comunidades microbianas ([Knight et al. 2018](#ref-Knight2018)).
 
-Este crecimiento explosivo de la metagenómica ha sido facilitado en gran medida por herramientas como **USEARCH**. Esta herramienta de análisis de secuencias genéticas proporciona algoritmos de búsqueda y agrupación de alta velocidad, superando a **BLAST** en términos de eficiencia. Al combinar múltiples algoritmos en un solo paquete, **USEARCH** optimiza la productividad y facilita la exploración de datos genéticos, lo que es esencial en el campo de la metagenómica (USEARCH 2023; Altschul 1997).
+Este crecimiento explosivo de la metagenómica ha sido facilitado en gran medida por herramientas como **USEARCH**. Esta herramienta de análisis de secuencias genéticas proporciona algoritmos de búsqueda y agrupación de alta velocidad, superando a **BLAST** en términos de eficiencia. Al combinar múltiples algoritmos en un solo paquete, **USEARCH** optimiza la productividad y facilita la exploración de datos genéticos, lo que es esencial en el campo de la metagenómica ([USEARCH 2023](#ref-usearch2023); [Altschul 1997](#ref-Altschul1997)).
 
-Un estudio reciente de Rognes et al. (2020) ha demostrado que **VSEARCH**, una herramienta de análisis metagenómico, es generalmente más preciso que USEARCH cuando se realiza la búsqueda, el agrupamiento, la detección de quimeras y el muestreo (Rognes et al. 2020). Además, VSEARCH es más rápido que USEARCH cuando se realiza la dereplicación y la fusión de lecturas de extremo a extremo, aunque es más lento para el agrupamiento y la detección de quimeras (Rognes et al. 2020).
+Un estudio reciente de Rognes et al. (2020) ha demostrado que **VSEARCH**, una herramienta de análisis metagenómico, es generalmente más preciso que USEARCH cuando se realiza la búsqueda, el agrupamiento, la detección de quimeras y el muestreo ([Rognes et al. 2020](#ref-Rognes2020)). Además, VSEARCH es más rápido que USEARCH cuando se realiza la dereplicación y la fusión de lecturas de extremo a extremo, aunque es más lento para el agrupamiento y la detección de quimeras ([Rognes et al. 2020](#ref-Rognes2020)).
 
 ## Herramientas bioinformáticas en metagenómica
 
-Como ya se ha explicado, las herramientas bioinformáticas son esenciales para el análisis de los datos metagenómicos. Estas herramientas permiten el ensamblaje de las secuencias de ADN, la predicción de genes, la anotación funcional y la comparación de comunidades microbianas. Algunas de las herramientas más utilizadas en metagenómica incluyen MetaVelvet, IDBA-UD, Ray Meta y CONCOCT (Rice et al. 2017).
+Como ya se ha explicado, las herramientas bioinformáticas son esenciales para el análisis de los datos metagenómicos. Estas herramientas permiten el ensamblaje de las secuencias de ADN, la predicción de genes, la anotación funcional y la comparación de comunidades microbianas. Algunas de las herramientas más utilizadas en metagenómica incluyen MetaVelvet, IDBA-UD, Ray Meta y CONCOCT ([Rice et al. 2017](#ref-Rice2017)).
 
-Una herramienta bioinformática muy importante que se utilizan en la metagenómica, es **QIIME**, que permite el análisis de datos de secuenciación de comunidades de alta densidad (Caporaso et al. 2010). Otras herramientas importantes incluyen MetaVelvet, que se utiliza para el ensamblaje de metagenomas, y Phyloseq, que proporciona una serie de herramientas para el análisis de datos de secuenciación de comunidades microbianas (Quince et al. 2017).
+Una herramienta bioinformática muy importante que se utilizan en la metagenómica, es **QIIME**, que permite el análisis de datos de secuenciación de comunidades de alta densidad ([Caporaso et al. 2010](#ref-Caporaso2010)). Otras herramientas importantes incluyen MetaVelvet, que se utiliza para el ensamblaje de metagenomas, y Phyloseq, que proporciona una serie de herramientas para el análisis de datos de secuenciación de comunidades microbianas ([Quince et al. 2017](#ref-Quince2017)).
 
 # Conclusión
 

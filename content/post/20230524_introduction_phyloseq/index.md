@@ -4,6 +4,7 @@ date: "2023-05-24T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: phyloseq.bib
+link-citations: true
 ---
 
 <style>
@@ -46,19 +47,19 @@ pre {
 
 ## ¿Qué es Phyloseq?
 
-**Phyloseq** es un paquete de R que se compone de una serie de funciones para importar, almacenar, analizar y visualizar gráficamente datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs), especialmente cuando hay datos de muestra asociados, un árbol filogenético y/o asignación taxonómica de las OTUs. Este paquete aprovecha muchas de las herramientas disponibles en R para ecología y análisis filogenético (vegan, ade4, ape, picante), al mismo tiempo que utiliza sistemas gráficos avanzados y flexibles (ggplot2) para producir fácilmente gráficos de calidad de publicación de datos filogenéticos complejos (McMurdie and Holmes 2013). Mediante Phyloseq se puede llevar así a cabo la importación de un conjunto diverso de formatos de datos de secuenciación de microbiomas, su normalización, la visualización y el análisis estadístico (McMurdie and Holmes 2013; Callahan et al. 2016).
+**Phyloseq** es un paquete de R que se compone de una serie de funciones para importar, almacenar, analizar y visualizar gráficamente datos de secuenciación filogenética complejos que ya han sido agrupados en Unidades Taxonómicas Operativas (OTUs), especialmente cuando hay datos de muestra asociados, un árbol filogenético y/o asignación taxonómica de las OTUs. Este paquete aprovecha muchas de las herramientas disponibles en R para ecología y análisis filogenético (vegan, ade4, ape, picante), al mismo tiempo que utiliza sistemas gráficos avanzados y flexibles (ggplot2) para producir fácilmente gráficos de calidad de publicación de datos filogenéticos complejos ([McMurdie and Holmes 2013](#ref-mcmurdie2013phyloseq)). Mediante Phyloseq se puede llevar así a cabo la importación de un conjunto diverso de formatos de datos de secuenciación de microbiomas, su normalización, la visualización y el análisis estadístico ([McMurdie and Holmes 2013](#ref-mcmurdie2013phyloseq); [Callahan et al. 2016](#ref-callahan2016dada2)).
 
-**Phyloseq** es especialmente útil para el análisis de datos de secuenciación de alto rendimiento, que a menudo son difíciles de manejar con los métodos tradicionales (McMurdie and Holmes 2013; Callahan et al. 2016; Thompson et al. 2017). Además, proporciona una serie de visualizaciones gráficas que son útiles para explorar y entender los datos de microbiomas (McMurdie and Holmes 2013; Callahan et al. 2016; Thompson et al. 2017).
+**Phyloseq** es especialmente útil para el análisis de datos de secuenciación de alto rendimiento, que a menudo son difíciles de manejar con los métodos tradicionales ([McMurdie and Holmes 2013](#ref-mcmurdie2013phyloseq); [Callahan et al. 2016](#ref-callahan2016dada2); [Thompson et al. 2017](#ref-thompson2017second)). Además, proporciona una serie de visualizaciones gráficas que son útiles para explorar y entender los datos de microbiomas ([McMurdie and Holmes 2013](#ref-mcmurdie2013phyloseq); [Callahan et al. 2016](#ref-callahan2016dada2); [Thompson et al. 2017](#ref-thompson2017second)).
 
-A través de esta herramienta también facilita la investigación reproducible al permitir que los análisis se realicen en el entorno de programación de R. Esto permite que los análisis se documenten y compartan fácilmente, como en este mismo blog, lo cual facilita la colaboración y la revisión de los análisis (McMurdie and Holmes 2013; Callahan et al. 2016).
+A través de esta herramienta también facilita la investigación reproducible al permitir que los análisis se realicen en el entorno de programación de R. Esto permite que los análisis se documenten y compartan fácilmente, como en este mismo blog, lo cual facilita la colaboración y la revisión de los análisis ([McMurdie and Holmes 2013](#ref-mcmurdie2013phyloseq); [Callahan et al. 2016](#ref-callahan2016dada2)).
 
 ## Aplicaciones de Phyloseq
 
-**Phyloseq** se utiliza en una amplia gama de aplicaciones, desde la ecología microbiana hasta la medicina. Por ejemplo, se ha empleado para analizar la diversidad microbiana en diferentes entornos, como el suelo (Thompson et al. 2017), el agua (Logares et al. 2014) o el mismo cuerpo humano (Consortium 2012). En medicina, Phyloseq se ha utilizado para analizar la relación entre el microbioma humano y diversas enfermedades, como la enfermedad inflamatoria intestinal (Gevers et al. 2014) y la obesidad (Le Chatelier et al. 2013).
+**Phyloseq** se utiliza en una amplia gama de aplicaciones, desde la ecología microbiana hasta la medicina. Por ejemplo, se ha empleado para analizar la diversidad microbiana en diferentes entornos, como el suelo ([Thompson et al. 2017](#ref-thompson2017second)), el agua ([Logares et al. 2014](#ref-logares2014metagenomic)) o el mismo cuerpo humano ([Consortium 2012](#ref-human_microbiome_project_consortium2012structure)). En medicina, Phyloseq se ha utilizado para analizar la relación entre el microbioma humano y diversas enfermedades, como la enfermedad inflamatoria intestinal ([Gevers et al. 2014](#ref-gevers2014treatment)) y la obesidad ([Le Chatelier et al. 2013](#ref-le_chatelier2013richness)).
 
 # Instalación de Phyloseq
 
-Es posible instalar Phyloseq fácilmente utilizando Bioconductor como se muestra a continuación (Layeghifard, Hwang, and Guttman 2017; “Bioconductor: Open Source Software for Bioinformatics” 2023).
+Es posible instalar Phyloseq fácilmente utilizando Bioconductor como se muestra a continuación ([Layeghifard, Hwang, and Guttman 2017](#ref-layeghifard2017disentangling); [“Bioconductor: Open Source Software for Bioinformatics” 2023](#ref-bioconductorweb)).
 
 ``` r
 if (!requireNamespace("BiocManager", quietly = TRUE))

@@ -4,6 +4,7 @@ date: "2023-05-25T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: resources.bib
+link-citations: true
 ---
  
 ```{r setup, include = FALSE}
@@ -12,6 +13,8 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
                       comment = NA, prompt = FALSE, tidy = FALSE, 
                       fig.width = 10, fig.height = 7,
                       fig.align = 'center', fig_caption = TRUE)
+
+library(knitr)
 
 ```
 
@@ -60,15 +63,15 @@ Actualmente se...
 
 ## **NCBI** (**National Center for Biotechnology Information**) 
 
-Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta (SRA).
+Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta, SRA [@NCBI].
 
-NCBI SRA (Sequence Read Archive): Es una base de datos que almacena secuencias de lectura corta generadas por tecnologías de secuenciación de próxima generación. SRA es una fuente crucial de datos para la metagenómica y la ecología microbiana, ya que permite a los investigadores acceder a datos de secuenciación de una amplia variedad de proyectos y estudios [@NCBI; @NCBISRA].
+ - NCBI SRA (Sequence Read Archive): Es una base de datos que almacena secuencias de lectura corta generadas por tecnologías de secuenciación de próxima generación. SRA es una fuente crucial de datos para la metagenómica y la ecología microbiana, ya que permite a los investigadores acceder a datos de secuenciación de una amplia variedad de proyectos y estudios [@NCBISRA].
 
-## EBI (European Bioinformatics Institute)
+## European Bioinformatics Institute (EBI)
 
 Es una organización de investigación que forma parte del Laboratorio Europeo de Biología Molecular. EBI proporciona acceso a muchas bases de datos y herramientas útiles en el campo de la bioinformática, incluyendo la base de datos de secuencias de ADN y proteínas, Ensembl, y la base de datos de metagenómica [@EBI].
 
-EBI Metagenomics: Es una base de datos y una plataforma de análisis que permite a los investigadores depositar, buscar y analizar datos metagenómicos. Esta plataforma es especialmente útil para los estudios de ecología microbiana que se centran en la secuenciación de ADN ambiental.
+- EBI Metagenomics: Es una base de datos y una plataforma de análisis que permite a los investigadores depositar, buscar y analizar datos metagenómicos. Esta plataforma es especialmente útil para los estudios de ecología microbiana que se centran en la secuenciación de ADN ambiental [@EBIMetagenomics].
 
 ## HMP DACC (Human Microbiome Project Data Analysis and Coordination Center)
 
@@ -76,23 +79,27 @@ Es una iniciativa que tiene como objetivo caracterizar y analizar la microbiota 
 
 ## Metagenomic Rapid Annotations using Subsystems Technology (MG-RAST)
 
-Es una plataforma de análisis de metagenómica que proporciona acceso a datos y herramientas para el análisis de secuencias metagenómicas. MG-RAST es útil para los investigadores en ecología microbiana que buscan entender la diversidad y la función de las comunidades microbianas.
+MG-RAST una plataforma de análisis de metagenómica que proporciona acceso a datos y herramientas para el análisis de secuencias metagenómicas. MG-RAST es útil para los investigadores en ecología microbiana que buscan entender la diversidad y la función de las comunidades microbianas [@MGRAST].
 
 ## iMicrobe
 
-Es una plataforma que proporciona acceso a datos y herramientas para la investigación en microbiología y metagenómica. iMicrobe incluye datos de proyectos como el Proyecto de Microbiología Marina de la Fundación Gordon y Betty Moore.
+iMicrobe es una plataforma que proporciona acceso a datos y herramientas para la investigación en microbiología y metagenómica. iMicrobe incluye datos de proyectos como el Proyecto de Microbiología Marina de la Fundación Gordon y Betty Moore [@iMicrobe].
 
-## JGI (Joint Genome Institute)
+## Joint Genome Institute (JGI)
 
-Es un instituto de investigación que proporciona acceso a una variedad de recursos genómicos, incluyendo secuenciación de ADN y análisis de metagenómica. JGI es una valiosa fuente de datos para los estudios de ecología microbiana.
+Es un instituto de investigación que proporciona acceso a una variedad de recursos genómicos, incluyendo secuenciación de ADN y análisis de metagenómica. JGI es una valiosa fuente de datos para los estudios de ecología microbiana [@JGI].
 
-## ENA (European Nucleotide Archive)
+## European Nucleotide Archive (ENA)
 
-Es una base de datos que almacena secuencias de nucleótidos y información relacionada. ENA es una fuente importante de datos para la metagenómica y la ecología microbiana.
+Es una base de datos que almacena secuencias de nucleótidos y información relacionada. ENA es una fuente importante de datos para la metagenómica y la ecología microbiana [@ENA].
 
-## DDBJ (DNA Data Bank of Japan)
+## DNA Data Bank of Japan (DDBJ)
 
-Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociadas. DDBJ es una fuente importante de datos para la metagenómica y la ecología microbiana, ya que proporciona acceso a secuencias genéticas de una amplia variedad de organismos, incluyendo microbios.
+Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociadas. DDBJ es una fuente importante de datos para la metagenómica y la ecología microbiana, ya que proporciona acceso a secuencias genéticas de una amplia variedad de organismos, incluyendo microbios [@DDBJ].
+
+# Conclusión
+
+El conocimiento de estas bases es un pilar de la metagenómica, si bien, este es solamente el primer paso para efectuar un proyecto. Los datos de secuenciación de estas plataformas requerirán de un procesamiento y limpieza antes de que puedan ser analizados de forma adecuada. Este procesamiento puede implicar la eliminación de secuencias de baja calidad, la agrupación de secuencias en unidades taxonómicas operativas (OTUs) y la anotación taxonómica de las OTUs. Muchas de estas tareas pueden ser realizadas con herramientas de bioinformática como **QIIME** y **Mothur**, y más adelantes los datos resultantes del procesamiento podrán ser importados en R para su análisis con **Phyloseq** u otras librerías.
 
 
 # Referencias

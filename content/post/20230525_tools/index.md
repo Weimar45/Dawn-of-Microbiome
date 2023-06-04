@@ -4,6 +4,7 @@ date: "2023-05-25T21:48:51-07:00"
 tags: ["Bioconductor", "Phyloseq", "Metagenomics"]
 output: html_document
 bibliography: resources.bib
+link-citations: true
 ---
 
 <style>
@@ -48,43 +49,59 @@ Actualmente se…
 
 ## **NCBI** (**National Center for Biotechnology Information**)
 
-Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta (SRA).
+Es una organización gubernamental de los Estados Unidos que proporciona acceso a una gran cantidad de información sobre genómica, genética y biología molecular. En el contexto de la metagenómica y la ecología microbiana, NCBI ofrece una variedad de bases de datos y herramientas útiles, como la base de datos de secuencias genéticas GenBank y la base de datos de secuencias de lectura corta, SRA ([“<span class="nocase">National Center for Biotechnology Information</span>,” n.d.](#ref-NCBI)).
 
-NCBI SRA (Sequence Read Archive): Es una base de datos que almacena secuencias de lectura corta generadas por tecnologías de secuenciación de próxima generación. SRA es una fuente crucial de datos para la metagenómica y la ecología microbiana, ya que permite a los investigadores acceder a datos de secuenciación de una amplia variedad de proyectos y estudios (“<span class="nocase">National Center for Biotechnology Information</span>,” n.d.; “NCBI Sequence Read Archive,” n.d.).
+- NCBI SRA (Sequence Read Archive): Es una base de datos que almacena secuencias de lectura corta generadas por tecnologías de secuenciación de próxima generación. SRA es una fuente crucial de datos para la metagenómica y la ecología microbiana, ya que permite a los investigadores acceder a datos de secuenciación de una amplia variedad de proyectos y estudios ([“NCBI Sequence Read Archive,” n.d.](#ref-NCBISRA)).
 
-## EBI (European Bioinformatics Institute)
+## European Bioinformatics Institute (EBI)
 
-Es una organización de investigación que forma parte del Laboratorio Europeo de Biología Molecular. EBI proporciona acceso a muchas bases de datos y herramientas útiles en el campo de la bioinformática, incluyendo la base de datos de secuencias de ADN y proteínas, Ensembl, y la base de datos de metagenómica (“European Bioinformatics Institute,” n.d.).
+Es una organización de investigación que forma parte del Laboratorio Europeo de Biología Molecular. EBI proporciona acceso a muchas bases de datos y herramientas útiles en el campo de la bioinformática, incluyendo la base de datos de secuencias de ADN y proteínas, Ensembl, y la base de datos de metagenómica ([“European Bioinformatics Institute,” n.d.](#ref-EBI)).
 
-EBI Metagenomics: Es una base de datos y una plataforma de análisis que permite a los investigadores depositar, buscar y analizar datos metagenómicos. Esta plataforma es especialmente útil para los estudios de ecología microbiana que se centran en la secuenciación de ADN ambiental.
+- EBI Metagenomics: Es una base de datos y una plataforma de análisis que permite a los investigadores depositar, buscar y analizar datos metagenómicos. Esta plataforma es especialmente útil para los estudios de ecología microbiana que se centran en la secuenciación de ADN ambiental ([“EBI Metagenomics,” n.d.](#ref-EBIMetagenomics)).
 
 ## HMP DACC (Human Microbiome Project Data Analysis and Coordination Center)
 
-Es una iniciativa que tiene como objetivo caracterizar y analizar la microbiota humana para entender su papel en la salud y la enfermedad. Los datos generados por el HMP son de gran valor para los estudios de metagenómica y ecología microbiana (“<span class="nocase">Human Microbiome Project Data Analysis and Coordination Center</span>,” n.d.).
+Es una iniciativa que tiene como objetivo caracterizar y analizar la microbiota humana para entender su papel en la salud y la enfermedad. Los datos generados por el HMP son de gran valor para los estudios de metagenómica y ecología microbiana ([“<span class="nocase">Human Microbiome Project Data Analysis and Coordination Center</span>,” n.d.](#ref-HMPDACC)).
 
 ## Metagenomic Rapid Annotations using Subsystems Technology (MG-RAST)
 
-Es una plataforma de análisis de metagenómica que proporciona acceso a datos y herramientas para el análisis de secuencias metagenómicas. MG-RAST es útil para los investigadores en ecología microbiana que buscan entender la diversidad y la función de las comunidades microbianas.
+MG-RAST una plataforma de análisis de metagenómica que proporciona acceso a datos y herramientas para el análisis de secuencias metagenómicas. MG-RAST es útil para los investigadores en ecología microbiana que buscan entender la diversidad y la función de las comunidades microbianas ([“<span class="nocase">Metagenomic Rapid Annotations using Subsystems Technology</span>,” n.d.](#ref-MGRAST)).
 
 ## iMicrobe
 
-Es una plataforma que proporciona acceso a datos y herramientas para la investigación en microbiología y metagenómica. iMicrobe incluye datos de proyectos como el Proyecto de Microbiología Marina de la Fundación Gordon y Betty Moore.
+iMicrobe es una plataforma que proporciona acceso a datos y herramientas para la investigación en microbiología y metagenómica. iMicrobe incluye datos de proyectos como el Proyecto de Microbiología Marina de la Fundación Gordon y Betty Moore ([“<span class="nocase">iMicrobe</span>,” n.d.](#ref-iMicrobe)).
 
-## JGI (Joint Genome Institute)
+## Joint Genome Institute (JGI)
 
-Es un instituto de investigación que proporciona acceso a una variedad de recursos genómicos, incluyendo secuenciación de ADN y análisis de metagenómica. JGI es una valiosa fuente de datos para los estudios de ecología microbiana.
+Es un instituto de investigación que proporciona acceso a una variedad de recursos genómicos, incluyendo secuenciación de ADN y análisis de metagenómica. JGI es una valiosa fuente de datos para los estudios de ecología microbiana ([“Joint Genome Institute,” n.d.](#ref-JGI)).
 
-## ENA (European Nucleotide Archive)
+## European Nucleotide Archive (ENA)
 
-Es una base de datos que almacena secuencias de nucleótidos y información relacionada. ENA es una fuente importante de datos para la metagenómica y la ecología microbiana.
+Es una base de datos que almacena secuencias de nucleótidos y información relacionada. ENA es una fuente importante de datos para la metagenómica y la ecología microbiana ([“European Nucleotide Archive,” n.d.](#ref-ENA)).
 
-## DDBJ (DNA Data Bank of Japan)
+## DNA Data Bank of Japan (DDBJ)
 
-Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociadas. DDBJ es una fuente importante de datos para la metagenómica y la ecología microbiana, ya que proporciona acceso a secuencias genéticas de una amplia variedad de organismos, incluyendo microbios.
+Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociadas. DDBJ es una fuente importante de datos para la metagenómica y la ecología microbiana, ya que proporciona acceso a secuencias genéticas de una amplia variedad de organismos, incluyendo microbios ([“<span class="nocase">DNA Data Bank of Japan</span>,” n.d.](#ref-DDBJ)).
+
+# Conclusión
+
+El conocimiento de estas bases es un pilar de la metagenómica, si bien, este es solamente el primer paso para efectuar un proyecto. Los datos de secuenciación de estas plataformas requerirán de un procesamiento y limpieza antes de que puedan ser analizados de forma adecuada. Este procesamiento puede implicar la eliminación de secuencias de baja calidad, la agrupación de secuencias en unidades taxonómicas operativas (OTUs) y la anotación taxonómica de las OTUs. Muchas de estas tareas pueden ser realizadas con herramientas de bioinformática como **QIIME** y **Mothur**, y más adelantes los datos resultantes del procesamiento podrán ser importados en R para su análisis con **Phyloseq** u otras librerías.
 
 # Referencias
 
 <div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-DDBJ" class="csl-entry">
+
+“<span class="nocase">DNA Data Bank of Japan</span>.” n.d. <https://www.ddbj.nig.ac.jp/>.
+
+</div>
+
+<div id="ref-EBIMetagenomics" class="csl-entry">
+
+“EBI Metagenomics.” n.d. <https://www.ebi.ac.uk/metagenomics/>.
+
+</div>
 
 <div id="ref-EBI" class="csl-entry">
 
@@ -92,9 +109,33 @@ Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociada
 
 </div>
 
+<div id="ref-ENA" class="csl-entry">
+
+“European Nucleotide Archive.” n.d. <https://www.ebi.ac.uk/ena>.
+
+</div>
+
 <div id="ref-HMPDACC" class="csl-entry">
 
 “<span class="nocase">Human Microbiome Project Data Analysis and Coordination Center</span>.” n.d. <https://www.hmpdacc.org/>.
+
+</div>
+
+<div id="ref-iMicrobe" class="csl-entry">
+
+“<span class="nocase">iMicrobe</span>.” n.d. <https://www.imicrobe.us/>.
+
+</div>
+
+<div id="ref-JGI" class="csl-entry">
+
+“Joint Genome Institute.” n.d. <https://www.jgi.doe.gov/>.
+
+</div>
+
+<div id="ref-MGRAST" class="csl-entry">
+
+“<span class="nocase">Metagenomic Rapid Annotations using Subsystems Technology</span>.” n.d. <https://www.mg-rast.org/>.
 
 </div>
 
