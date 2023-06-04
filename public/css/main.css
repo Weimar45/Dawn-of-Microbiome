@@ -140,8 +140,7 @@ img {
 
 .article-content a:hover,
 .article-content a:focus {
-  background-color: transparent !important;
-  box-shadow: none !important;
+  background: #CBF8DF;
 }
 
 .article-content hr {
