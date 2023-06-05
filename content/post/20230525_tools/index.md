@@ -43,7 +43,7 @@ pre {
 }
 </style>
 
-# Una Revisión Exhaustiva de las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana
+# Introducción a las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana
 
 Como se ha introducido en artículos anteriores, la metagenómica es una rama de la genómica que se centra en el estudio de muestras tomadas directamente de ambientes naturales. Esta disciplina ha revolucionado nuestra comprensión de las comunidades microbianas, permitiéndonos explorar la diversidad y la función de los microbios en una variedad de contextos, desde el cuerpo humano hasta los océanos y el suelo.
 
