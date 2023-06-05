@@ -59,7 +59,11 @@ pre {
 
 # Una Revisión Exhaustiva de las Plataformas y Bases de Datos para la Metagenómica y la Ecología Microbiana
 
-Actualmente se...  
+Como se ha introducido en artículos anteriores, la metagenómica es una rama de la genómica que se centra en el estudio de muestras tomadas directamente de ambientes naturales. Esta disciplina ha revolucionado nuestra comprensión de las comunidades microbianas, permitiéndonos explorar la diversidad y la función de los microbios en una variedad de contextos, desde el cuerpo humano hasta los océanos y el suelo.
+
+Ahora bien, el volumen de datos generados exige a su vez una forma de organizar esta información, y ahí es donde entran las bases de datos y plataformas de la metagenómica. Éstas conceden acceso a una gran cantidad de datos genéticos y metagenómicos que pueden ser utilizados para identificar y caracterizar nuevas especies microbianas, entender las interacciones entre diferentes especies microbianas y su entorno, y explorar cómo las comunidades microbianas cambian en respuesta a diferentes factores ambientales y perturbaciones.
+
+Además, cabe mencionar que no solamente proporcionan los datos brutos necesarios para la investigación metagenómica, sino que también ofrecen herramientas y recursos para el análisis y la interpretación de estos datos. Esto incluye herramientas para la anotación de secuencias, la comparación de comunidades microbianas, la creación de grafos, la identificación de funciones metabólicas y la visualización de datos entre otras.
 
 ## **NCBI** (**National Center for Biotechnology Information**) 
 
@@ -99,7 +103,9 @@ Es una base de datos que almacena secuencias de ADN y ARN y anotaciones asociada
 
 # Conclusión
 
-El conocimiento de estas bases es un pilar de la metagenómica, si bien, este es solamente el primer paso para efectuar un proyecto. Los datos de secuenciación de estas plataformas requerirán de un procesamiento y limpieza antes de que puedan ser analizados de forma adecuada. Este procesamiento puede implicar la eliminación de secuencias de baja calidad, la agrupación de secuencias en unidades taxonómicas operativas (OTUs) y la anotación taxonómica de las OTUs. Muchas de estas tareas pueden ser realizadas con herramientas de bioinformática como **QIIME** y **Mothur**, y más adelantes los datos resultantes del procesamiento podrán ser importados en R para su análisis con **Phyloseq** u otras librerías.
+En resumen, estas bases de datos y plataformas son fundamentales para la metagenómica y la ecología microbiana al facilitar la exploración y el entendimiento de la diversidad y la función de las comunidades microbianas, siendo así esenciales para avanzar en nuestra comprensión de la biología microbiana. 
+
+El conocimiento de estas bases se convierte entonces un pilar de la metagenómica, si bien éste es solamente el primer paso para efectuar un proyecto. Los datos de secuenciación de estas plataformas requerirán de un procesamiento y limpieza antes de que puedan ser analizados de forma adecuada. Este procesamiento puede implicar la eliminación de secuencias de baja calidad, la agrupación de secuencias en unidades taxonómicas operativas (OTUs) y la anotación taxonómica de las OTUs. Muchas de estas tareas pueden ser realizadas con herramientas de bioinformática como **QIIME** y **Mothur**, y más adelantes los datos resultantes del procesamiento podrán ser importados en R para su análisis con **Phyloseq** u otras librerías.
 
 
 # Referencias
